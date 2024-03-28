@@ -1,0 +1,87 @@
+body{
+  background-image: url(./assests/bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.css-road{
+  z-index: 1;
+  position: relative;
+  top: 480px;
+  margin-bottom: 0px;
+  left: -10px;
+  width: 100vw;
+}
+
+.css-conan{
+  z-index: 2;
+  height: 250px;
+  position: relative;
+  top: 200px;
+
+}
+
+.jump{
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top:210px;
+  }
+  30% {
+    top: 10px;
+  }
+  50% {
+    top: 20px;
+  }
+  80% {
+    top: 10px;
+  }
+  100% {
+    top: 210px;
+  }
+}
+
+.css-jin{
+  z-index: 3;
+  position: relative;
+  top: 20px;
+  height: 150px;
+
+  animation: jin 1s infinite linear;
+}
+
+@keyframes jin {
+  0% {
+    left: 1400px;
+  }
+
+  100% {
+    left: -20px;
+  }
+}
+/*.css-cloud{
+  top: 100px;
+  position: fixed;
+  height: 300px;
+  animation: jin 1s infinite linear;
+}*/
+.css-cloud2{
+  top: 70px;
+  position: fixed;
+  height: 200px;
+  animation: jin 2s infinite linear;
+}
+.css-cloud3{
+  top: 90px;
+  position: fixed;
+  height: 400px;
+  animation: jin 3s infinite linear;
+}
+.instrustion{
+  color:white;
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 900;
+    font-style: normal;
+
+}
